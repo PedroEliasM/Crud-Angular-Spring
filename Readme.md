@@ -36,8 +36,8 @@ Server port: 8080
 
 Frontend port: 4200
 
-### Usuário e senha no MySQL
-### (caso o seu seja diferente, mude em crud-spring/src/main/resources/application.properties):
+### Usuário e senha no MySQL:
+### (caso o seu seja diferente, mude em crud-spring/src/main/resources/application.properties)
 user: root
 
 password: root

@@ -13,7 +13,7 @@ MySQL Workbench 8
 
 ##
 
-### Script de criação do banco de dados:
+### Script de criação do banco de dados (deve ser executado no MySQL para o sistema funcionar):
 
 CREATE DATABASE IF NOT EXISTS pessoa_db;
 USE pessoa_db;
@@ -36,7 +36,8 @@ Server port: 8080
 
 Frontend port: 4200
 
-### Usuário e senha no MySQL:
+### Usuário e senha no MySQL
+### (caso o seu seja diferente, mude em crud-spring/src/main/resources/application.properties):
 user: root
 
 password: root
@@ -57,6 +58,6 @@ npm install
 
 ng serve
 
-3- Digitar URL no navegador:
+3- Digitar a URL no navegador:
 
 http://localhost:4200/

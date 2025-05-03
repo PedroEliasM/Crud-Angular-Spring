@@ -1,15 +1,20 @@
-### Dependências
+### Dependências:
 node 16.10.0
+
 Angular CLI 14.2.13
+
 npm 7.24.0
 
 Java 17 LTS
+
 Spring boot 3.4.5 + Maven
-MySQL 8
+
+MySQL Workbench 8
 
 ##
 
-*** Script de criação do banco de dados ***
+## Script de criação do banco de dados:
+
 CREATE DATABASE IF NOT EXISTS pessoa_db;
 USE pessoa_db;
 CREATE TABLE IF NOT EXISTS pessoa (
@@ -22,13 +27,15 @@ CREATE TABLE IF NOT EXISTS pessoa (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
-*** Portas ***
+##
+
+## Portas:
 MySQL port: 3306
 
 Server port: 8080
 Frontend port: 4200
 
-*** Usuário e senha no MySQL ***
+## Usuário e senha no MySQL:
 user: root
 password: root
 

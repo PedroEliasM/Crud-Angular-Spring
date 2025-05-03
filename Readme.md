@@ -13,7 +13,7 @@ MySQL Workbench 8
 
 ##
 
-## Script de criação do banco de dados:
+### Script de criação do banco de dados:
 
 CREATE DATABASE IF NOT EXISTS pessoa_db;
 USE pessoa_db;
@@ -29,13 +29,13 @@ CREATE TABLE IF NOT EXISTS pessoa (
 
 ##
 
-## Portas:
+### Portas:
 MySQL port: 3306
 
 Server port: 8080
 Frontend port: 4200
 
-## Usuário e senha no MySQL:
+### Usuário e senha no MySQL:
 user: root
 password: root
 

@@ -33,22 +33,30 @@ CREATE TABLE IF NOT EXISTS pessoa (
 MySQL port: 3306
 
 Server port: 8080
+
 Frontend port: 4200
 
 ### Usuário e senha no MySQL:
 user: root
+
 password: root
 
 ### Como Rodar
 
 1- Backend
+
 Abrir o cmd na pasta "crud-spring" e executar: 
+
 mvnw.cmd spring-boot:run
 
 2- Frontend
+
 Abrir o cmd na pasta "crud-angular" e executar: 
+
 npm install
+
 ng serve
 
 3- Digitar URL no navegador:
+
 http://localhost:4200/
